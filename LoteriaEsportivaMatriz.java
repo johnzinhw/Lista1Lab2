@@ -7,8 +7,6 @@ public class LoteriaEsportivaMatriz {
 		float v,valorPagar;
 		Scanner scan = new Scanner(System.in);
 
-
-
 		System.out.print("Digite o valor da aposta:");
 		v=scan.nextFloat();
 
