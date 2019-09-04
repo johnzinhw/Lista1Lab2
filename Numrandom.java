@@ -86,9 +86,9 @@ public class Numrandom {
 		for (int i =0; i<l; i++) {
 			System.out.println();		
 		for (int k=0; k<c; k++) {
-			if (i < k || k>c && i!= k)
+			if (i < k || k>c && i!= k) {
 				System.out.printf("%d",  m[i][k]);
-			}else {
+			} else {
 				System.out.print("");
 			}
 		}
@@ -99,14 +99,16 @@ public class Numrandom {
 		for (int i =0; i<l; i++) {
 			System.out.println();		
 		for (int k=0; k<c; k++) {
-			if (i <k || k>c && i!= k)
+			if (i >k || k>c && i!= k) {
 				System.out.printf("%d",  m[i][k]);
 			}else {
 				System.out.print("");
 			}
 		}
+		}
+		}
 	}
-
 }
 
-}
+
+
