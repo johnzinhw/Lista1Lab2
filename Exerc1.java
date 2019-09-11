@@ -6,7 +6,7 @@ public class Exerc1 {
 		
 		int n= 20;
 		int v[] = new int [n];
-		int i;
+		int i,p;
 		int aux =0;
 		
 		for (i = 0; i < n; i++) {
@@ -14,10 +14,12 @@ public class Exerc1 {
 			v[i] = vet.nextInt();
 		}
 		
-		for (i=19; i>10;i--) {
-			aux=v[i];
-			v[i] = v[19-i];
-			v[19-i] = aux;
+		p =n;
+		for (i=0; i<n/2; i++) {
+			aux = v[i];
+			v[i] = v[p-1];
+			v[p-1] = aux;
+			p--;
 		}
 		
 		for (i=0;i<n; i++) {
