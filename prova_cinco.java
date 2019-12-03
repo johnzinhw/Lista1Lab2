@@ -1,5 +1,5 @@
 
-public class fatorial {
+public class prova_cinco {
 	public static void main (String [] args) {
 		fatorial(12,1);
 		
